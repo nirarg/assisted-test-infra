@@ -30,7 +30,7 @@ LINT_CODE_STYLING_DIRS := src/tests src/triggers src/assisted_test_infra/test_in
 # assisted-service
 SERVICE_BRANCH := $(or $(SERVICE_BRANCH), "master")
 SERVICE_BASE_REF := $(or $(SERVICE_BASE_REF), "master")
-SERVICE_REPO := $(or $(SERVICE_REPO), "https://github.com/openshift/assisted-service")
+SERVICE_REPO := $(or $(SERVICE_REPO), "https://github.com/nirarg/assisted-service")
 SERVICE := $(or $(SERVICE), quay.io/edge-infrastructure/assisted-service:latest)
 SERVICE_NAME := $(or $(SERVICE_NAME),assisted-service)
 INDEX_IMAGE := $(or ${INDEX_IMAGE},quay.io/edge-infrastructure/assisted-service-index:latest)
